@@ -31,7 +31,7 @@ username = args[0]
 csvfile = args[1]
 
 
-# Read data file
+# Parse data file (if errors, will fail without waiting for SFDC login)
 
 newrates = {}
 
