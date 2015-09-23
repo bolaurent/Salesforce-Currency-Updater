@@ -9,8 +9,8 @@ Basic Usage
 Example Usage
 --------------
 
-The following will update currencies in the sandbox, setting DatedConversionRates with specified starting
-date, using data from the specified csv file.
+The following will update currencies in the sandbox, setting DatedConversionRates with starting
+date 2015-09-20, using data from the csv file 'currencies.csv'.
 
     currencies.py -s --date 2015-09-20 myusername currencies.csv 
 
